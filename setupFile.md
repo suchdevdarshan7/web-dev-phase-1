@@ -12,3 +12,10 @@ git configuration setup
 
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
+
+
+Auto Rename Tag
+Auto close tag 
+prettier
+Better Comments
+live server
