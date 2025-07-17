@@ -1,0 +1,28 @@
+/* header{
+    background-color: black;
+    height: 100px; 
+}
+nav{
+    background-color: crimson;
+    height:50px;
+    width: 80%;
+    margin: 0 auto; 
+} */
+
+/* Tag name selector */
+header{
+    height : 100px; 
+    background: red;
+    border: 1px solid black;
+}
+
+/* Generic class selector */
+.navigation{
+    height: 50px; 
+    background: black;
+}
+
+#red-color-something{
+    background: aquamarine;
+    height: 50vh;   
+}

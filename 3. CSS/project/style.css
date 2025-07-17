@@ -1,0 +1,25 @@
+header{
+    
+}
+nav{
+    text-align: center;
+    background-color: dodgerblue ;
+    color: white;
+}
+h1{
+    display: inline;
+}
+ul
+{
+    list-style: none;
+    display: inline;
+}
+li{
+    display: inline;
+
+}
+
+a{
+    text-decoration: none;
+     color: white;
+}
