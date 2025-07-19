@@ -1,0 +1,42 @@
+span{
+    color: rgb(8, 187, 253);
+}
+h1{
+    color: white;
+}
+nav{
+    background-color: rgb(2, 75, 135);
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+    list-style: none; 
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+input{
+    border: none;
+    height: 30px;
+    background-color: rgb(2,75,135);
+}
+form{
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.557);
+    border-width: thin;
+    display: flex;
+    align-items: center;
+}
+button{
+    border: none;
+    height: 30px;;
+    width: 30px;
+    background-color: rgb(2,75,135);
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.557);
+}

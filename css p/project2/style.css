@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 1100px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.home{
+    color: rgb(255, 166, 0);
+}
+
