@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element
+        .container::after{
+
+        } */
+
+        /* !Pseudo classes */
+        
+        .container::selection{
+            background-color: red;
+        }
+        
+        .container:link{
+            color: red;
+        }
+        .container:visited{
+            color: pink;
+        }
+        .container:hover{
+            color: seagreen;
+        
+        }
+        .container:active{
+            color: rgb(144, 12, 100);
+        }
+    </style>
+</head>
+<body>
+    <a class="container" href="https://www.google.com" target="_blank">Google ku po</a>
+    <a class="container" href="https://www.facebook.com">facebook ku po</a>
+</body>
+</html>

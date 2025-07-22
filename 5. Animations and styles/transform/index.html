@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        p{
+            display: none;
+        }
+        .box{
+            height:350px; 
+            width:350px; 
+            background-color: rgb(1, 166, 248);
+            transition: all 0.8s ;
+        }
+        .box:hover{
+            /* transform: rotate(45deg); */
+            /* transform: rotateX(1turn); */
+            /* transform: rotateY(1turn); */
+            /* transform:scaleY(1.5); */
+            /* transform: skew(40deg,40deg); */
+            /* transform: translateX(-100px ); */
+            border-radius: 50px;
+            background-color: red;
+        }
+        .box:hover p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"><p>This text is form none</p></div>
+        <div class="box"><p>This text is form none</p></div>
+        <div class="box"><p>This text is form none</p></div>
+    </div>
+</body>
+</html>
