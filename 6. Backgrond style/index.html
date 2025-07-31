@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 62.5%; /*To convert 1 rem: 10px*/
+        }
+
+        :root{
+            --primary-background-color: green;
+        }
+
+
+        .container{
+            height: 50vh; /*! viewport height */
+            width: 80vw;
+            background-color: var(--primary-background-color);
+            
+        }
+        /* 1 rem = 16px */
+
+        .box{
+            height:10rem;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>
