@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width:100vw;
+            display: flex;
+            /* align-items: center; */
+            justify-content: center;
+            background-color: navy;
+            gap: 20px;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px; 
+            border: 5px solid white; 
+        }
+        .box1{
+            background-color: aquamarine;
+            animation: GiruGiruRotate 2s 1 ;
+        }
+        .box2{
+            background-color: seagreen;
+            animation: KilaPoganum 2s 1;
+        }
+        .box3{
+            background-color: red;
+            animation: vanavilLGBTQ 10s 1;
+        }
+        .box4{
+            background-color: lawngreen;
+        }
+        .box5{
+            background-color: blueviolet;
+        }
+    
+
+        @keyframes GiruGiruRotate {
+            from{
+                opacity: 0;
+            }
+            to{
+                transform: rotate(180deg);
+                opacity: 1;
+            }
+        }
+        @keyframes KilaPoganum {
+            from{
+                opacity: 0;
+            }
+            to{
+                transform: translateY(100px);
+                opacity: 1;
+            }
+        }
+        @keyframes vanavilLGBTQ {
+            0%{
+                transform: translateY(-100px);
+                background: violet;
+            }
+            20%{
+                background: indigo;
+            }
+            40%{
+                background-color: blue;
+            }
+            60%{
+                background-color: green;
+            }
+            80%{
+                background-color: yellow;
+            }
+            90%{
+                background-color: orange;
+            }
+            100%{
+                transform: translateY(0px);
+                background-color: red;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
